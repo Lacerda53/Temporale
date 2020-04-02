@@ -1,5 +1,7 @@
 # Temporale
 
+![Temporale](https://user-images.githubusercontent.com/33927459/78200434-0bfefa80-7465-11ea-906d-912c5af6ef49.jpg)
+
 ### 1° Passo
 Crie um conta no site <a href="https://www.openweathermap.org">OpenWearther</a>, logo após criar uma conta, navegue até a aba "API Keys", copie sua chave e cole na propiedade key, dentro do arquivo 'App.js', onde está escrito:
 

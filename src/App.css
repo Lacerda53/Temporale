@@ -1,38 +1,119 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: url('./assets/fundo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+}
+
+input {
+  width: 45%;
+  height: 60px;
+  color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  font-size: large;
+  padding: 0 24px;
+  
+}
+
+.search {
+  flex-direction: row;
+  margin-left: 33%;
+  margin-top: 2%;
+}
+
+.btnSearch {
+  position: fixed;
+}
+
+.main-wthree-row {
+  width: 25%;
+  margin: 2em auto;
+  background: rgba(0, 0, 0, 0.486);
+  border-radius: 10px;
+  background-size: cover;
+  padding: 2em;
+}
+
+.date {
+  font-size: 1.4em;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.agileinfo-text {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.agileinfo-text h2 {
+  font-size: 8em;
+  font-weight: 900;
+  color: rgba(255, 215, 1, 0.59);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.agileinfo-text h2 span {
+  font-weight: 100;
+  font-size: 0.5em;
+  vertical-align: text-top;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.agileinfo-text h4 {
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.agileinfo-text h6 {
+  font-size: .9em;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copy-rights {
+  text-align: center;
+  padding: 1em 0 2em;
+}
+
+.copy-rights p {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.copy-rights p a {
+  color: #fff;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+}
+
+.copy-rights p a:hover {
+  color: #ffd701;
 }
